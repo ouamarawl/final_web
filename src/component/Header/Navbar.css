@@ -1,0 +1,23 @@
+.header {
+    margin-top: 0px;
+    margin-bottom: 10%;
+    border-bottom: 2px solid white;
+    /* margin-left: -12%;
+    margin-right:-12% ; */
+}
+.header ul {
+display: flex;
+justify-content: space-evenly;
+}
+.header li {
+   padding: 3%;
+   font-size: 140%;
+   font-family: "Playwrite AU SA", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color:  #512da8;   
+}
+.header a {
+    text-decoration: none;
+}

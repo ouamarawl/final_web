@@ -1,0 +1,25 @@
+.enssegnement {
+    text-align: center;
+    display: block;
+    align-items: center;
+ justify-content: center;
+}
+.enssegnement h1 {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:  #512da8;
+    font-size: 3rem;
+    
+}
+.enssegnement img {
+    display: flex;
+    text-align: center;
+     align-items: center;
+  justify-content: center;
+  margin-left: 22rem;
+}
+.enssegnement img:hover {
+    transform: scale(1.3);
+}
