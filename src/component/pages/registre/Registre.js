@@ -12,7 +12,7 @@ function Registre() {
       };
   return (
     <div className='registre' >
-      <h1 id='first_h1'>teste for registre</h1>
+      <h1 id='first_h1'>teste for register</h1>
       <div className="container" ref={containerRef}>
       <div className="form-container sign-up">
         <form>

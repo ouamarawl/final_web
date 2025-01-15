@@ -6,7 +6,7 @@ import Data_product from './data_product'
 function Product() {
   return (
   <div className='produit'>
-   <h1 id='first_h1_2'> test for list_product </h1> 
+   <h1 id='first_h1_2'> test for product list </h1> 
     <div className='container-product'> 
        
        {Data_product.map((currentValue, index) => (
