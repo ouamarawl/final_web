@@ -1,0 +1,48 @@
+#first_h1_3{
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    display: block;
+    margin: -24% 0% 10% -95%
+    
+}
+.partie_de_recheres {
+ border: 1px solid black;
+ width: 100%;
+ height: 2.5rem;
+ background-color:white;
+ border-radius: 2%;
+ margin-bottom: 1%;
+}
+.partie_de_recheres button {
+    width: 20%;
+    height: 100%;
+    margin: 0%; 
+    border-radius: 4%;
+    border: 1px;
+    background-color: #512da8;
+   
+}
+#text_btn {
+    color: white;
+}
+.partie_de_resultas {
+ border: 1px solid black;
+ padding: auto;
+ width: 100%;
+ height: 30rem;
+ margin-bottom: 2%;
+ background-color: white;
+ border-radius: 1%;
+}
+#input {
+    width: 80%;
+    height: 100%;
+    margin: 0%; 
+    border-radius: 2%;
+    border: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+}

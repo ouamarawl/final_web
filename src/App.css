@@ -1,7 +1,21 @@
 /* :root{
 
 } */
-
+:root {
+    --color-dark: #27292a;
+    --color_darkest: #1f2122;
+    --color-light: white;
+    --color_primary: #ec6090;
+    --color-icons:yellow;
+    --color-bg-body: var(--color_darkest);
+    --distance-primary: 50px;
+    --pading-primary: var(--distance-primary);
+    --margin-primary: var(--distance-primary);
+    --border-radius-primary: calc(var(--distance-primary)/2);
+    --font-family-primary: "Poppins", sans-serif;
+    --font-wight-bold: 900;
+    --font-weight-normal: 400;
+  }
 body {
     background-color: #c9d6ff;
     background: linear-gradient(to right, #e2e2e2, #c9d6ff);

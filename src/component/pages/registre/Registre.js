@@ -11,7 +11,9 @@ function Registre() {
         containerRef.current.classList.remove("active");
       };
   return (
-    <div className="container" ref={containerRef}>
+    <div className='registre' >
+      <h1 id='first_h1'>teste for registre</h1>
+      <div className="container" ref={containerRef}>
       <div className="form-container sign-up">
         <form>
           <h1>Create Account</h1>
@@ -61,6 +63,7 @@ function Registre() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

@@ -14,7 +14,14 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-
+ #first_h1 {
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  margin: -15% 0% 10% -31%;
+}
 .container {
   background-color: #fff;
   border-radius: 30px;

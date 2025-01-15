@@ -1,0 +1,50 @@
+.produit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding-top: 0;
+    
+}
+.container-product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10% 10% 10% 10% ;
+    border: 1rem solid rgb(195, 191, 191);
+    padding-top: 0;
+    
+}
+#first_h1_2 {
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-top: -8%;
+    
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color:  #512da8;
+}
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.container_card {
+    background-color: white;
+    border-radius: calc(var(--border-radius-primary) / 2);
+    padding: calc(var(--pading-primary) / 2);
+    margin: calc(var(--margin-primary) / 5);
+    flex: 1 1 25%;
+}
+.container_card img {
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary)/4);
+    margin-bottom: calc(var(--pading-primary)/2);
+    height: 70%;
+}
