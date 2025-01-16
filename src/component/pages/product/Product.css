@@ -11,7 +11,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 10% 10% 10% 10% ;
-    border: 1rem solid rgb(195, 191, 191);
+    border: 10px solid #512da8;
     padding-top: 0;
     
 }
@@ -23,6 +23,7 @@
     font-size: 3rem;
     margin-left: 5%;
     margin-top: -8%;
+    color: #512da8;
     
 }
 ::-webkit-scrollbar {
