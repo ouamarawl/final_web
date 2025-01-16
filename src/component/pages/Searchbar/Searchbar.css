@@ -64,8 +64,9 @@
 
   .container_card img {
     max-width: 100%; 
-    height: auto; 
-    margin: 1px; 
+    height: 70%; 
+    margin-top: 10%; 
+    margin-bottom: 0px;
   }
   
   .container_card h3 {
