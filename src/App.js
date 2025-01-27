@@ -7,6 +7,8 @@ import Product from './component/pages/product/Product'
 import Searchbar from './component/pages/Searchbar/Searchbar';
 import Header from './component/Header/header';
 import Container from './component/Container/Container';
+import Admin from './component/pages/admin-dashboard/Admin';
+
 function App() {
 
   return (
@@ -14,6 +16,7 @@ function App() {
       <Header/>
       <Container>
        <Routes>
+         <Route path="/admin-dashboard" element={<Admin/>}/>  
          <Route path="/Registre" element={<Registre/>}/>   
          <Route path="/Product" element={<Product/>}/>
          <Route path="/" element={<Home/>}/> 

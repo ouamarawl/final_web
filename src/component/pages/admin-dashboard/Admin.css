@@ -1,0 +1,63 @@
+.inputs {
+    display: flex;
+    flex-direction: column; /* Organise les enfants verticalement */
+    gap: 10px; /* Ajoute un espacement entre les lignes */
+  }
+  
+  .inputs input {
+    display: block; /* Met chaque input sur une ligne différente */
+    margin: 10px 0; /* Ajoute de l'espace entre les champs */
+    padding: 8px; /* Ajoute un espace intérieur pour rendre le champ plus agréable */
+    width: 100%; /* Prend toute la largeur disponible du conteneur */
+    border: 1px solid #ccc; /* Bordure simple */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de texte lisible */
+  }
+  
+  .inputs input[type="file"] {
+    padding: 5px; /* Spécifique au champ fichier */
+  }
+  
+.search-bar-2 {
+    display: flex;
+    /* flex-direction: column; Organise les enfants verticalement */
+    gap: 10px; /* Ajoute un espacement entre les lignes */
+    height: 3rem;
+} 
+.search-bar-2 input{
+ width: 80%; 
+ height: 100%;
+ border-radius: 10px;
+}   
+.search-bar-2 button{
+    width: 20%;
+    background-color: white; 
+    height: 100%;
+    border-radius: 10px;
+} 
+#imageUpload {
+    background-color: white;
+    border: 1px solid #ccc; /* Optionnel : ajout d'une bordure pour un meilleur visuel */
+    border-radius: 5px; /* Optionnel : coins arrondis */
+    padding: 5px; /* Optionnel : espace intérieur */
+    color: #333; /* Couleur du texte (optionnel) */
+  }
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}  
+.buttons button{
+ border: solid black 1px;
+  color: white;
+ border-radius: 10%;
+ padding: 2%;
+}
+#ajouter {
+    background-color: green;
+}
+#modifier {
+    background-color: blue;
+}
+#supprimer {
+    background-color: red;
+}

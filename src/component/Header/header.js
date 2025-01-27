@@ -8,7 +8,8 @@ function Header() {
             <Link to='/' ><li>home</li></Link> 
             <Link to='Registre'><li>register</li></Link> 
             <Link to='Product'><li>product</li></Link> 
-            <Link to= 'Searchbar'><li>search_bar</li></Link>          
+            <Link to= 'Searchbar'><li>search_bar</li></Link>    
+            <Link to= 'admin-dashboard'><li>admin dashboard</li></Link>         
         </ul>
     </div>
   )
