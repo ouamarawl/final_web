@@ -39,7 +39,7 @@ function Admin() {
       prix: prix,
       image: image,
     };
-
+  
     fetch("http://localhost:8080/api/produits", {
       method: "POST",
       headers: {
@@ -50,49 +50,55 @@ function Admin() {
       .then((response) => response.json())
       .then((data) => {
         console.log("Produit ajouté avec succès:", data);
-        // Met à jour la liste des produits après ajout
         setProduits([...produits, produitData]);
+        alert("✅ Produit ajouté avec succès !");
       })
-      .catch((error) => console.error("Erreur d'ajout de produit:", error));
+      .catch((error) => {
+        console.error("Erreur d'ajout de produit:", error);
+        alert("❌ Erreur lors de l'ajout du produit !");
+      });
   };
-
+  
   const supprimer = () => {
     const idInput = document.getElementById("id");
     if (!idInput) {
       console.error("L'élément ID est introuvable !");
+      alert("⚠️ L'élément ID est introuvable !");
       return;
     }
     const id = idInput.value;
-
+  
     fetch(`http://localhost:8080/api/produits/${id}`, {
       method: "DELETE",
     })
       .then((response) => response.json())
       .then((data) => {
         console.log("Produit supprimé avec succès:", data);
-        // Met à jour la liste des produits après suppression
         setProduits(produits.filter((produit) => produit.id !== id));
+        alert("🗑️ Produit supprimé avec succès !");
       })
-      .catch((error) =>
-        console.error("Erreur de suppression de produit:", error)
-      );
+      .catch((error) => {
+        console.error("Erreur de suppression de produit:", error);
+        alert("❌ Erreur lors de la suppression du produit !");
+      });
   };
-
+  
   const modifier = () => {
     const idInput = document.getElementById("id");
     if (!idInput) {
       console.error("L'élément ID est introuvable !");
+      alert("⚠️ L'élément ID est introuvable !");
       return;
     }
     const id = idInput.value;
-
+  
     const produitData = {
       titre: titre,
       description: discription,
       prix: prix,
       image: image,
     };
-
+  
     fetch(`http://localhost:8080/api/produits/${id}`, {
       method: "PUT",
       headers: {
@@ -103,17 +109,19 @@ function Admin() {
       .then((response) => response.json())
       .then((data) => {
         console.log("Produit modifié avec succès:", data);
-        // Met à jour la liste des produits après modification
         setProduits(
           produits.map((produit) =>
             produit.id === id ? { ...produit, ...produitData } : produit
           )
         );
+        alert("✏️ Produit modifié avec succès !");
       })
-      .catch((error) =>
-        console.error("Erreur de modification de produit:", error)
-      );
+      .catch((error) => {
+        console.error("Erreur de modification de produit:", error);
+        alert("❌ Erreur lors de la modification du produit !");
+      });
   };
+  
 
   return (
     <div className="admin-dashboard">
