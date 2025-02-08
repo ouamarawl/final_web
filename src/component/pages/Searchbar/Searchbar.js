@@ -1,6 +1,5 @@
 import React from 'react';
 import './Searchbar.css';
-import data_product from '../product/data_product';
 import Fuse from 'fuse.js';
 import  { useEffect, useState } from "react";
 

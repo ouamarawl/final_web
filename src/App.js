@@ -8,6 +8,7 @@ import Searchbar from './component/pages/Searchbar/Searchbar';
 import Header from './component/Header/header';
 import Container from './component/Container/Container';
 import Admin from './component/pages/admin-dashboard/Admin';
+import Acces from './component/pages/registre/Acces';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
          <Route path="/Registre" element={<Registre/>}/>   
          <Route path="/Product" element={<Product/>}/>
          <Route path="/" element={<Home/>}/> 
-         <Route path="/Searchbar" element={<Searchbar/>}/>     
+         <Route path="/Searchbar" element={<Searchbar/>}/>   
+         <Route path="/acces" element={<Acces />} />  
        </Routes>
       </Container>
     </Router>

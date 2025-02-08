@@ -225,4 +225,9 @@ body {
   .container.active .toggle-right {
     transform: translateX(200%);
   }
-  
+   /* cela force le botton a etres visibles  */
+  .toggle-panel button {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
