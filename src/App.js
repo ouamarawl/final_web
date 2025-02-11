@@ -9,6 +9,8 @@ import Header from './component/Header/header';
 import Container from './component/Container/Container';
 import Admin from './component/pages/admin-dashboard/Admin';
 import Acces from './component/pages/registre/Acces';
+// import React from 'react';
+
 
 function App() {
 
